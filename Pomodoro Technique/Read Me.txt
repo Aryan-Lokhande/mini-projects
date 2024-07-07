@@ -1,0 +1,22 @@
+# Pomodoro Timer
+
+## Overview
+
+This mini-project is a simple Pomodoro timer designed to help you improve productivity and focus. The Pomodoro Technique is a time management method that uses a timer to break work into intervals, typically 25 minutes in length, separated by short breaks. This timer features Start, Pause, and Reset buttons to manage your work and break sessions efficiently.
+
+## Theme
+
+The theme of this Pomodoro timer is **Adhyatmik**, which translates to spirituality. This theme is chosen to evoke a sense of calm, focus, and inner peace, helping you to concentrate on your tasks with a serene mindset. The color palette includes tranquil and soothing colors that align with this spiritual theme.
+
+## Features
+
+- **Start Button**: Begins the Pomodoro session timer.
+- **Pause Button**: Pauses the current timer session.
+- **Reset Button**: Resets the timer to the initial state.
+
+## Usage
+
+- Click the **Start** button to begin your Pomodoro session.
+- Click the **Pause** button to pause the timer.
+- Click the **Reset** button to reset the timer to the initial state.
+

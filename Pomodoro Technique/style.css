@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #E6E6FA; */
+    background: linear-gradient(45deg, #5252c9, #E6E6FA);
+
+    /* color: #36454F; */
+    font-family: Arial, sans-serif;
+    /* flex-direction: column; */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .screen {
+    /* width: 640px; Set the width to match three circles (3 * 200px + margins) */
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 2px solid #36454F;
+    margin-bottom: 20px; /* Add margin to push circles down */
+    font-size: xx-large;
+    border-radius: 30px;  
+    box-shadow: 0 4px 8px #deD3D3;
+  }
+  
+  .circles {
+    display: flex;
+    justify-content: center;    
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .start{
+    align-content: center;
+    text-align: center;
+    /* border: 15px ridge; */
+    border-radius: 50%;    
+    font-size: xx-large;
+    background-color: #228B22;
+    color: aliceblue;
+}
+.pause{
+    align-content: center;
+    text-align: center;
+    /* border: 15px ridge; */
+    border-radius: 50%;    
+    font-size: xx-large;
+    background-color: #00BFFF;
+    color: aliceblue;
+}
+.reset{
+    align-content: center;
+    text-align: center;
+    /* border: 15px ridge; */
+    border-radius: 50%;    
+    font-size: xx-large;
+    color:aliceblue ;
+    background-color: #DAA520;
+}
+
+.start:hover {
+    background-color: #006400;
+}
+
+
+.pause:hover {
+    background-color: #1E90FF;
+}
+
+.reset:hover {
+    background-color: #B8860B;
+}
