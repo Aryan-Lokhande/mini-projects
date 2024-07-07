@@ -4,10 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    /* background-color: #E6E6FA; */
     background: linear-gradient(45deg, #5252c9, #E6E6FA);
-
-    /* color: #36454F; */
+    color: #36454F;
     font-family: Arial, sans-serif;
     /* flex-direction: column; */
   }
@@ -17,13 +15,12 @@ body {
   }
   
   .screen {
-    /* width: 640px; Set the width to match three circles (3 * 200px + margins) */
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
     background-color: #FFFFFF;
     border: 2px solid #36454F;
-    margin-bottom: 20px; /* Add margin to push circles down */
+    margin-bottom: 20px; 
     font-size: xx-large;
     border-radius: 30px;  
     box-shadow: 0 4px 8px #deD3D3;
@@ -77,7 +74,6 @@ body {
 .start:hover {
     background-color: #006400;
 }
-
 
 .pause:hover {
     background-color: #1E90FF;
